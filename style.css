@@ -1,5 +1,7 @@
 body {
-  background-color: #de8626;
+  display: flex;
+  background-color: #dfd7d8;
+  justify-content: center;
 }
 
 main {
@@ -9,14 +11,53 @@ main {
   align-items: center;
   width: 60vw;
   height: 80vh;
-  background-color: yellowgreen;
+  margin-top: 4em;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 main .header {
-  background-color: #f4d59a;
+  background-color: #f6f0f3;
+  height: 40vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .header p {
+  color: #c6adad;
 }
 main .sing-up {
-  background-color: #be1a02;
+  background-color: #402320;
+  width: 30vw;
+  height: 40vh;
+  border-bottom-left-radius: 10px;
+  color: #f7f8e2;
+}
+main .sing-up p {
+  text-align: center;
 }
 main .why-us {
-  background-color: #c93d21;
+  background-color: #c6adad;
+  width: 30vw;
+  height: 40vh;
+  border-bottom-right-radius: 10px;
+  color: #1f1d1d;
+}
+p {
+  text-align: justify;
+  margin: 0px 15px 0px 15px;
+}
+section {
+  text-align: center;
+}
+section h1 {
+  color: #402320;
+}
+button {
+  height: 3.5em;
+  width: 10em;
+  background-color: green;
+  border: none;
+  border-radius: 25px;
+  color: #f7f8e2;
+  font-size: 16px;
+  margin-top: 1.4em;
+  text-align: center;
 }
